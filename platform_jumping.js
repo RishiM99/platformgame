@@ -7,7 +7,7 @@ let mouseClickedY;
 let ball;
 let paddlesObj;
 
-let liveCount = 100;
+let liveCount = 20;
 let points = 0;
 
 let cursorY;
