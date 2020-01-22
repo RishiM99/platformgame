@@ -206,7 +206,7 @@ function draw() {
 }
 
 function mouseClicked() {
-	if (!ball.ball_in_air && mouseY <= ball.ball_y) {
+	if (!ball.ball_in_air) {
 		mouseClickedX = mouseX;
 		//mouseClickedY = mouseY;
 		mouseClickedY = (height/10) * (Math.floor(ball.ball_y / (height/10)) - 1 + 1/2) - ball.diameter/2;
